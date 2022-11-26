@@ -1,6 +1,7 @@
 .div-buttons {
     width: 100%;
-    background-color: #D4F4F9;
+    /* background-color: #D4F4F9; */
+    font-size: large;
     height: 100px;
 }
 
