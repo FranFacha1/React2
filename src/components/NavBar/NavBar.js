@@ -17,8 +17,6 @@ const NavBar = () => {
 
                 <div className='buttons' >
                     <button className='button'>Incio</button>
-                    <button className='button'>Productos</button>
-                    <button className='button'>Promociones</button>
                     <button className='button'>Carrito</button>     
                 </div>
 
