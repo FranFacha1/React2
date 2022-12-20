@@ -1,6 +1,7 @@
 import React from 'react'
 import "./NavBar.css"
 import Carrito from './Carrito/Carrito'
+import { NavLink } from 'react-router-dom'
 
 const NavBar = () => {
     const src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYevRbSPlkzBNcoaOcGeKnvY6nhYCQGZY0PA&usqp=CAU"
@@ -16,8 +17,8 @@ const NavBar = () => {
                 </div>
 
                 <div className='buttons' >
-                    <button className='button'>Incio</button>
-                    <button className='button'>Carrito</button>     
+                    <NavLink to="/" className='button'>Incio</NavLink>
+                    <NavLink to="/cart"className='button'>Carrito</NavLink>     
                 </div>
 
                 <Carrito></Carrito>
