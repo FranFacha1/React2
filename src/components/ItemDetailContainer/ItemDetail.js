@@ -1,12 +1,18 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
+import items from "../../productos.json"
 
 const ItemDetail = () => {
 
-  const {id} = useParams()
+  let itemParam = useParams()
+
+  let itemConsulta = items.find((item) => item.id === itemParam.id);
+
 
   return (
-    <h1>Se cargo el componente con id {id}</h1>
+    <>
+      <h1>Se encontro el auto {itemConsulta.descripcion}</h1>
+    </>
   )
 }
 

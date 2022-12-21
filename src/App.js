@@ -13,7 +13,6 @@ import Error404 from './components/404Error/Error404';
 import ItemDetail from './components/ItemDetailContainer/ItemDetail';
 import Item from './components/Item/Item';
 
-// import Productos from './components/Productos/Productos';
 function App() {
 
   // const [productos, setProductos] = useState([]);

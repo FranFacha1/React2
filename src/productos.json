@@ -1,41 +1,42 @@
-{
+[
+    {
+        "id":"1",
+        "img": "https://img2.freepng.es/20180206/kbe/kisspng-used-car-car-dealership-mercedes-benz-vehicle-mercedes-front-png-image-5a7a2e1b037a62.5457453215179566350143.jpg",
+        "name": "Mercedes Benz",
+        "descripcion": "Hola",
+        "precio": 1000
+    },
 
-    "productos" : [
-        {
-            "id":1,
-            "img": "https://img2.freepng.es/20180206/kbe/kisspng-used-car-car-dealership-mercedes-benz-vehicle-mercedes-front-png-image-5a7a2e1b037a62.5457453215179566350143.jpg",
-            "nombre": "Mercedes BenzS",
-            "descripcion": "Hola",
-            "precio": 1000
-        },
-        {
-            "id":2,
-            "img": "https://p.kindpng.com/picc/s/8-87518_chevrolet-camaro-coupe-chevrolet-camaro-2018-png-transparent.png",
-            "nombre": "Chevrolet Camaro",
-            "descripcion": "Como",
-            "precio": 2000
-        },
-        {
-            "id": 3,
-            "img": "https://img2.freepng.es/20180128/rue/kisspng-2019-chevrolet-corvette-convertible-sports-car-che-blue-chevrolet-car-5a6d8c26b98cd8.57742420151712874276.jpg",
-            "nombre": "Corvette",
-            "descripcion": "Estas",
-            "precio": 3000
-        },
-        {
-            "id": 4,
-            "img": "https://flyclipart.com/thumbs/sports-sedan-1415285.png",
-            "nombre": "Mustang",
-            "descripcion": "Todo",
-            "precio": 4000
-        },
-        {
-            "id": 4,
-            "img": "https://img2.freepng.es/20180611/zux/kisspng-ferrari-laferrari-ferrari-125-s-car-enzo-ferrari-ferrari-laferrari-aperta-5b1f0918c07b52.1709344815287606007884.jpg",
-            "nombre": "Ferrari",
-            "descripcion": "Bien",
-            "precio": 5000
-        }
-    ]
+    {
+        "id":"2",
+        "img": "https://p.kindpng.com/picc/s/8-87518_chevrolet-camaro-coupe-chevrolet-camaro-2018-png-transparent.png",
+        "name": "Chevrolet Camaro",
+        "descripcion": "Como",
+        "precio": 2000
+    },
 
-}
+    {
+        "id": "3",
+        "img": "https://img2.freepng.es/20180128/rue/kisspng-2019-chevrolet-corvette-convertible-sports-car-che-blue-chevrolet-car-5a6d8c26b98cd8.57742420151712874276.jpg",
+        "name": "Corvette",
+        "descripcion": "Estas",
+        "precio": 3000
+    },
+
+    {
+        "id": "4",
+        "img": "https://flyclipart.com/thumbs/sports-sedan-1415285.png",
+        "name": "Mustang",
+        "descripcion": "Todo",
+        "precio": 4000
+    },
+
+    {
+        "id": "5",
+        "img": "https://img2.freepng.es/20180611/zux/kisspng-ferrari-laferrari-ferrari-125-s-car-enzo-ferrari-ferrari-laferrari-aperta-5b1f0918c07b52.1709344815287606007884.jpg",
+        "name": "Ferrari",
+        "descripcion": "Bien",
+        "precio": 5000
+    }
+
+]

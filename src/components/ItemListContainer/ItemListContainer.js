@@ -1,28 +1,16 @@
 import React from 'react'
 import Item from '../Item/Item'
+import items from "../../productos.json"
 const ItemListContainer = () => {
 
-  const items = [
-    {
-      id: 1,
-      name: "uno"
-    },
-    {
-      id: 2,
-      name: "dos"
-    },
-    {
-      id: 3,
-      name: "tres"
-    }
-
-  ]
 
   return (
     <>
-      {items.map(({id, name}) => (
-        <Item key={id} id={id} name={name}></Item>
-      ))}
+      {
+        items.map((item) => (
+          <Item key={items.id} id={item.id} name={item.name} img={item.img}></Item>
+        ))
+      }
     </>
   )
 }
